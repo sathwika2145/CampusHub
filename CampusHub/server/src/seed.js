@@ -6,10 +6,10 @@ import { User, Club, Announcement, Event, Resource, Opportunity, DirectoryEntry 
 
 await mongoose.connect(process.env.MONGO_URI || 'mongodb://127.0.0.1:27017/compihub');
 const accounts = [
-  ['CompiHub Admin', 'admin@compihub.local', 'AdminPass123!', 'Admin', 'Administration'],
-  ['Demo Faculty', 'faculty@compihub.local', 'FacultyPass123!', 'Faculty', 'CSE'],
-  ['Career Team', 'career@compihub.local', 'CareerPass123!', 'Career Coordinator', 'Career Services'],
-  ['Demo Student', 'student@compihub.local', 'StudentPass123!', 'Student', 'CSE']
+  ['CompiHub Admin', 'admin@campushub.local', 'AdminPass123!', 'Admin', 'Administration'],
+  ['Demo Faculty', 'faculty@campushub.local', 'FacultyPass123!', 'Faculty', 'CSE'],
+  ['Career Team', 'career@campushub.local', 'CareerPass123!', 'Career Coordinator', 'Career Services'],
+  ['Demo Student', 'student@campushub.local', 'StudentPass123!', 'Student', 'CSE']
 ];
 const users = {};
 for (const [username, email, password, role, department] of accounts) {
