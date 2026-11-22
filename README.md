@@ -278,10 +278,10 @@ After running the seed command, the following accounts are available:
 
 | Role | Email | Password |
 |---|---|---|
-| Admin | admin@compihub.local | AdminPass123! |
-| Faculty | faculty@compihub.local | FacultyPass123! |
-| Career Coordinator | career@compihub.local | CareerPass123! |
-| Student | student@compihub.local | StudentPass123! |
+| Admin | admin@campushub.local | AdminPass123! |
+| Faculty | faculty@campushub.local | FacultyPass123! |
+| Career Coordinator | career@campushub.local | CareerPass123! |
+| Student | student@campushub.local | StudentPass123! |
 
 **Note:** These are demonstration credentials for local development only. Do not use them for production deployment. Change all demo passwords and secrets before deployment.
 
